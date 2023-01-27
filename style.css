@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    width: 100%;
+
+}
+
+.logo{
+    width: 125%;
+}
+body{
+    background: url('IMG/capa1.png') no-repeat;
+    position:absolute;
+    background-size: cover;
+    overflow-x: hidden;
+    background-color: #000;
+    
+}
+nav{
+
+    display:flex;
+    height: 10vh;
+    font-family: 'GothamMedium';
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    margin-left: 32px;
+    color: #fff;
+    font-size: 1em;
+      
+}
+.list{
+    margin-top: 1.5em;
+}
+.a{
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav-list2{
+    align-items: right !important; 
+    text-align: right !important;
+    display: flex;
+    display: flex; 
+    margin-right:none;
+}
+.seta{
+    width:4%;
+    margin-top: 1.3em;
+    margin-left: 30em;
+   
+}
+.imgusuario{
+    width: 20%;
+    border-radius: 20%;
+    margin-left: 2em;
+    display: flex;
+    margin-top: 0.8em;
+}
+.list:not(:hover){
+    opacity: 0.5;
+    transition: 0.5s;
+ 
+}
+.list:hover{
+    transition: 0.5s;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.imgusuario:hover{
+    transition: 0.5s;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.logo:hover{
+    transition: 0.5s;
+    transform: scale(1.4);
+    cursor: pointer;
+
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url(font/Gotham-Font/Gotham-Font/GothamBold.ttf);
+}
+@font-face {
+    font-family: 'GothamMedium';
+    src: url(font/Gotham-Font/Gotham-Font/GothamMedium.ttf);
+}
+@font-face {
+    font-family: 'Gotham-Thin';
+    src: url(font/Gotham-Font/Gotham-Font/Gotham-Thin.otf);
+}
+@font-face {
+    font-family: 'GothamBoldItalic';
+    src: url(font/Gotham-Font/Gotham-Font/GothamBoldItalic.ttf);
+}
+@font-face {
+    font-family: 'GothamLight';
+    src: url(font/Gotham-Font/Gotham-Font/GothamLight.ttf);
+}
+.titulo{
+    font-family: 'GothamBoldItalic';
+    font-size: 3em;
+    color: #fff;
+    margin-top: 2em;
+}
+main{
+    margin: 3em;
+}
+h1{
+    letter-spacing: -0.09em;
+}
+.wolf{
+    color: rgb(129, 129, 129);
+    margin-top:-.37em;
+}
+h2{
+    color:rgb(129, 129, 129);
+    font-family: 'GothamLight';
+    font-size: 1em;
+    margin-top: 2em;
+}
+p{
+    font-family: 'GothamLight';
+    color: #fff;
+    font-size: 1em;
+}
+.gray{
+    color: gray;
+}
+.imgFaixa{
+    width: 3%;
+    background-color: rgba(255, 255, 255, 0.288);
+    padding-right: 3em;
+    padding-left: 1.5em;
+}
+.setaAssistir{
+    width:1.3%;
+}
+.imgInformacao{
+    width: 1.3%;
+
+}
+
+.btnInformacoes, .btnAssistir, .faixaEtaria{
+    background-color: #fff;
+    border-radius: .2em;
+    cursor: pointer;
+    padding: .8em;
+    font-size: 0.9em;
+    font-family: 'GothamMedium';
+
+}
+.btnInformacoes, .btnAssistir{
+    padding-left:5em;
+    padding-right: 5em;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.direita{
+    text-align: end;
+}
+.faixaEtaria{
+    margin-right: 2em;
+    padding-left: 6em;
+    text-align:  left !important;
+    align-items: left;
+    background:none;
+}
+.btnAssistir{
+    
+    color: #000;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1.5em;
+
+}
+.btnAssistir:hover{
+    opacity: 0.3;
+    transition: .5s;
+}
+.btnInformacoes{
+    background-color: rgb(114, 113, 113);
+    color: #fff;
+}
+.btnInformacoes:hover{
+    opacity: 0.3;
+    transition: .3s;
+}
+.temas{
+    color:#fff;
+    font-family:'GothamMedium' ;
+    font-size: 1.3em;
+    margin-top: 3em;
+}
+.slide{
+    display:flex;
+    height: 10rem;
+    gap: 1rem;
+}
+.slide >div{
+    flex:1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all 1s cubic-bezier(.25, .4, .45, 1.4);
+    cursor: pointer;
+}
+.slide > div:hover{
+    flex:2;
+}
+footer{
+    color:#fff;
+    background: rgba(68, 67, 67, 0.308);
+    font-family: 'Gotham-Thin';
+    height: 40vh;
+    padding: 2em;
+}
+.links{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    margin: 6em;
+    color: rgb(197, 197, 197);
+    font-size: .8em;
+}
+h4{
+    margin-left: 5em;
+    color: rgb(197, 197, 197);  
+}
+
+h5{
+    font-size: 0.7em;
+    text-align: center;
+    color: rgb(197, 197, 197);
+}
+.inf{
+    margin-left:6em;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+   
+    color: rgb(197, 197, 197);
+    font-size: .8em;
+}
+.pref{
+    margin-left: 6em;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5.3em;
+    color: rgb(197, 197, 197);
+    font-size: .8em;
+}
+.pref:hover, .inf:hover, .links:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
